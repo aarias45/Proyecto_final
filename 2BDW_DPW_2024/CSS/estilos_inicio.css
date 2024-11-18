@@ -1,0 +1,374 @@
+    *{margin:0;
+    font-family: "Maven Pro", sans-serif;    
+}
+@font-face {
+    font-family: MavenPro;
+    src: url(../Recursos/FUENTES/MavenPro-VariableFont_wght.ttf);
+}
+html{scroll-behavior: smooth;}
+body{
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+.nav1{
+    width: 33vw;
+    height: 15vh;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    flex-direction: row;
+    background-color: #24252a;
+    color: orange;
+}
+h3{
+    color:orange;
+}
+.nav2{
+    width: 34vw;
+    height: 15vh;
+    flex-direction: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #24252a;
+}
+.nav3{
+    width: 33vw;
+    height: 15vh;
+    flex-direction: row;
+    background-color: rgb(255, 162, 0);
+}
+ul{
+    display:flex ;
+    flex-direction: row;
+    list-style: none;
+}
+nav li{
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+}
+#seccion_funciones, #seccion_inicio, #seccion_descargas, #seccion_contacto{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+html{scroll-behavior: smooth;}
+#VideoInicio{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#ContenidoInicio{
+    z-index: 1;
+    color: orange;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+#Contenido_SUP{
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#Contenido_INF{
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#divINF1{
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    border:1px solid chocolate;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+#divINF2{
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    border:1px solid chocolate;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+#divINF3{
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    border:1px solid chocolate;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+#divINF4{
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    border:1px solid chocolate;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+}
+#seccion_funciones{
+    flex-direction: column;
+}
+form {
+    display: flex;
+    align-items: center;
+  }
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #000000;
+  }
+  #Contenido_INFSeccion, #Contenido_SUPSeccion{
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #Contenido_SUPSeccion{
+    padding-top: 20vh;
+  }
+  #Contenido_INFSeccion{
+    flex-direction: row;
+    background-color: white;
+    height: 40vh;
+  }
+  #divINF1_seccion, #divINF3_seccion, #divINF5_seccion{
+    width: 10vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    border: 1px solid black;
+    
+  }
+  #divINF2_seccion, #divINF4_seccion, #divINF6_seccion{
+    width: 15vw;
+    height: 25vh;
+    margin-right: 2rem;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+  .fa-user, .fa-plus, .fa-star{
+    font-size: 2rem;
+    color:#ff8c00
+  }
+.Titulo{
+    color: #ff8c00;
+}
+#seccion_descargas{
+    flex-direction: column;
+}
+#Contenido_INFdescargas, #Contenido_SUPdescargas{
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #Contenido_SUPdescargas{
+    padding-top: 20vh;
+   
+  }
+  #Contenido_INFdescargas{
+    flex-direction: row;
+    height: 40vh;
+  }
+.caratulas{
+    width: 15vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+#seccion_contacto{
+    flex-direction: column;
+    background-color: orange;
+}
+#mapaGoogle, #columnaDatos {
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#mapaGoogle iframe {
+    width: 100vw;
+    height: 50vh; /* Hace que el iframe ocupe todo el espacio del contenedor */
+    border: 0; /* Elimina el borde */
+}
+#columnaDatos{
+    flex-direction: row;
+}
+#datosContacto {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Esto debe alinear los elementos en una columna */
+    
+   
+}
+
+
+#datosContacto div {
+    width: auto; /* Permite que los elementos se ajusten al contenido */
+    
+    text-align: center; /* Centra el texto si es necesario */
+    margin: 1rem;
+}
+.li_titulo1,.li_titulo2, .li_titulo3{
+   margin: 1rem;
+   margin-right: 5rem;
+   align-items: center;
+}
+.li_titulo1{
+    margin-right: 9.7rem;
+}
+.li_titulo2{
+    margin-right: 9.7rem;
+}
+
+.li_texto1{
+    margin-left: 8.4rem;
+}
+.li_texto2{
+    margin-right: 4.4rem;
+}
+.li_texto3{
+    margin-left: 1rem;
+}
+
+
+#formulario{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+#formulario_2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px; /* Ajusta el tamaño máximo del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+}
+
+#formulario_2 input,
+#formulario_2 textarea,
+#formulario_2 button {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#formulario_2 span {
+    display: flex;
+    gap: 20px; /* Espacio entre los inputs de nombre y correo */
+    width: 100%;
+}
+
+#formulario_2 input[type="text"],
+#formulario_2 input[type="email"] {
+    flex: 1; /* Toma el mismo espacio */
+}
+
+#formulario_2 input[type="asunto"],
+#formulario_2 textarea {
+    flex: 1;
+}
+
+#formulario_2 button {
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#formulario_2 button:hover {
+    background-color: #e87c00; /* Un tono más oscuro */
+}
+
+
+
